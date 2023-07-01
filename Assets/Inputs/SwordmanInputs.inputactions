@@ -1,0 +1,74 @@
+{
+    "name": "SwordmanInputs",
+    "maps": [
+        {
+            "name": "PlayerControls",
+            "id": "9668dd80-8acc-4dc3-9f59-a67fba92b86c",
+            "actions": [
+                {
+                    "name": "CameraLook",
+                    "type": "PassThrough",
+                    "id": "61ad24d1-4b00-4bd1-8e30-fdf47ebb52c7",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "03bd68a3-8baa-4be4-a6a8-56d2a57687f6",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Attack",
+                    "type": "Button",
+                    "id": "163fe138-7d61-4970-b8e2-9dc7a72fd6b4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "987baffe-36ae-4b93-ae5c-8592b31effea",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CameraLook",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7fa89ec8-2ff0-4c2e-b54b-e3b85c190f95",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "08693285-9dea-43b7-8057-04786a0b05ae",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
