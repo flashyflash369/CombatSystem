@@ -58,7 +58,7 @@ public class ComboBehaviour : MonoBehaviour
     {
         if(animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.95f && animator.GetCurrentAnimatorStateInfo(0).IsTag("Attack"))
         {
-            Invoke("EndCombo", .5f);
+            Invoke("EndCombo", .3f);
         }
     }
 
